@@ -74,6 +74,7 @@ int threshold;
 int tdcTime;
 float delayMin;
 float delayMax;
+char fileName2[255];
 
 FILE *alldata, *adpdata;
 
