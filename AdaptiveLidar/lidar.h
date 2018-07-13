@@ -50,7 +50,7 @@ typedef double Sdoub; /* Double */
 FILE *fl;
 HANDLE hdl[1];
 HRM_STATUS error;
-int connect_tdc();
+HANDLE connect_tdc();
 Ulong buffer[0x200000];
 
 //for the Mirror*************************************************************************
@@ -72,6 +72,8 @@ float microSteps;
 float peakCheck;
 int threshold;
 int tdcTime;
+float delayMin;
+float delayMax;
 
 FILE *alldata, *adpdata;
 
